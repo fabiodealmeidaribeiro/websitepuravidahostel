@@ -1,0 +1,63 @@
+@import '--root.css';
+
+.widget-container
+{
+  background-color: var(--content-background);
+  border-radius: var(--container-border-radius);
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  margin: 0 var(--margin) 0 0;
+  padding: var(--margin) var(--margin) 0 var(--margin);
+}
+
+.widget-container li { display: inline-block; margin: 0 calc(var(--margin) / 2) 0 0; }
+
+.widget-container li>a:hover, .widget-container li.current-cat>a { color: var(--dark-color-pink); }
+
+.widget-container>address, .widget-container>p, .widget-container>ul { margin: 0 0 var(--margin) 0; }
+
+.last { margin: 0; }
+
+#widget-channels { display: none; }
+#widget-attention p, #widget-attention p>b>a { color: var(--color-white); }
+#widget-attention p>b>a:hover { color: var(--color-yellow); }
+#widget-attention { background-color: var(--dark-color-pink); }
+#widget-attention>.widget-wrapper { background-color: var(--color-white); }
+#widget-attention>.widget-wrapper p, #widget-attention>.widget-wrapper b { color: var(--dark-color-pink) }
+.widget-wrapper
+{
+  background-color: var(--color-gray);
+  border-radius: var(--wrapper-border-radius);
+  box-shadow: var(--box-shadow);
+  margin: 0 0 var(--margin) 0;
+  padding: calc(var(--margin) / 2);
+}
+.widget-wrapper>iframe { height: 360px; width: 100%; }
+.widget-wrapper>#reservation-content { width: 100%; }
+.widget-wrapper>#reservation-content>form
+{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.widget-wrapper>#reservation-content>form>#reservation-date,
+.widget-wrapper>#reservation-content>form>#reservation-number
+{
+  margin: 0 0 calc(var(--margin) / 2) 0;
+  width: 100%;
+}
+.widget-wrapper>#reservation-content>form>#reservation-check
+{
+  margin: 0;
+  width: unset;
+}
+@media (max-width: 575.98px) { }
+@media (max-width: 767.98px) {
+  #widget-channels { display: block; }
+}
+@media (max-width: 991.98px) {
+  .widget-container { margin: 0 0 var(--margin) 0; }
+  #widget-youtube { margin: 0; }
+}
+@media (max-width: 1199.98px) { }

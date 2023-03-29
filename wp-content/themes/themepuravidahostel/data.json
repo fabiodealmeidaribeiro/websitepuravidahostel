@@ -1,0 +1,550 @@
+{
+    "app": {
+        "attention": [
+            "O nosso horário de atendimento para orçamentos e reservas é de segunda a sexta, das 10h00 às 17h50.",
+            "Caso prefira, verifique as disponibilidades abaixo."
+        ],
+        "main": [
+            "3"
+        ],
+        "widgets": [
+            {
+                "title": "footer",
+                "amount": 2
+            }
+        ],
+        "widget": {
+            "attention": [
+                "14"
+            ],
+            "navigation": [
+                "10",
+                "11"
+            ]
+        },
+        "category": [
+            {
+                "title": "",
+                "exclude": [
+                    "10",
+                    "11",
+                    "14"
+                ]
+            }
+        ],
+        "page": [
+            {
+                "title": "Políticas",
+                "exclude": [
+                    "10",
+                    "916",
+                    "923",
+                    "431"
+                ]
+            },
+            {
+                "title": "Bar do Deck",
+                "exclude": [
+                    "10",
+                    "925",
+                    "928",
+                    "930",
+                    "932",
+                    "923",
+                    "916",
+                    "953",
+                    "963"
+                ]
+            }
+        ],
+        "clear": [],
+        "highlight": [],
+        "meta": {
+            "object": [
+                "Acomodação",
+                "Acomodações",
+                "Albergue",
+                "Albergues",
+                "Aluguel de quarto",
+                "Aluguel de quartos",
+                "Festa de ano novo",
+                "Festa de Réveillon",
+                "Festa open bar",
+                "Free Tours",
+                "Happy hour",
+                "Hostel",
+                "Hosteis",
+                "Hotel",
+                "Hoteis",
+                "Open bar",
+                "Quarto compartilhado",
+                "Quartos compartilhados",
+                "Party Hostel",
+                "Party Hosteis",
+                "Pool Party",
+                "Reveillon",
+                "Suíte de casal",
+                "Suíte para casal",
+                "Suíte para casais"
+            ],
+            "place": [
+                "na Cidade do Rio de Janeiro",
+                "no Rio de janeiro",
+                "próximo à Estação de metrô general osório",
+                "próximo ao Metrô general osório",
+                "na Praia de Copacabana",
+                "na Praia do Arpoador",
+                "na Praia do Diabo",
+                "na Praia do Ipanema",
+                "na Praia do Leblon",
+                "na Praia do Leme",
+                "em Copacabana",
+                "no Arpoador",
+                "em Ipanema",
+                "no Leblon",
+                "no Leme",
+                "no bairro de Copacabana",
+                "no bairro de Ipanema",
+                "no bairro de Leblon",
+                "no bairro de Leme",
+                "no Cantagalo",
+                "no Pavão",
+                "no Pavãozinho",
+                "no PPG",
+                "próximo à Praia de Copacabana",
+                "próximo à Praia do Arpoador",
+                "próximo à Praia do Diabo",
+                "próximo à Praia do Ipanema",
+                "próximo à Praia do Leblon",
+                "próximo à Praia do Leme",
+                "próximo à Copacabana",
+                "próximo ao Arpoador",
+                "próximo à Ipanema",
+                "próximo ao Leblon",
+                "próximo ao Leme",
+                "próximo ao bairro de Copacabana",
+                "próximo ao bairro de Ipanema",
+                "próximo ao bairro de Leblon",
+                "próximo ao bairro de Leme",
+                "próximo ao Cantagalo",
+                "próximo ao Pavão",
+                "próximo ao Pavãozinho",
+                "próximo ao PPG",
+                "próximo à Pedra Arpoador",
+                "próximo ao Cristo Redentor",
+                "próximo ao Forte de Copacabana",
+                "próximo ao Pão de Açúcar"
+            ],
+            "genre": [
+                "",
+                "Feminino",
+                "LGBT",
+                "LGBTQIA+",
+                "LGBTS",
+                "Misto"
+            ]
+        },
+        "sidebar": {
+            "up": [
+                {
+                    "active": false,
+                    "description": "",
+                    "id": "side-button-bed",
+                    "name": "bed",
+                    "target": true,
+                    "title": "Reservas",
+                    "url": "https://booking.hqbeds.com.br/puravida"
+                },
+                {
+                    "active": true,
+                    "description": "",
+                    "id": "side-button-whatsapp",
+                    "name": "logo-whatsapp",
+                    "target": true,
+                    "title": "Recepção",
+                    "url": "https://api.whatsapp.com/send?phone=5521990286961&text=Ol%C3%A1!%20Vim%20do%20site%20do%20Pura%20Vida%2C%20e%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20hostel."
+                },
+                {
+                    "active": true,
+                    "description": "",
+                    "id": "side-button-instagram",
+                    "name": "logo-instagram",
+                    "target": true,
+                    "title": "instagram",
+                    "url": "https://www.instagram.com/puravidahostelrio/"
+                },
+                {
+                    "active": true,
+                    "description": "",
+                    "id": "side-button-facebook",
+                    "name": "logo-facebook",
+                    "target": true,
+                    "title": "facebook",
+                    "url": "https://www.facebook.com/PuraVidaHostel"
+                },
+                {
+                    "active": true,
+                    "description": "",
+                    "id": "side-button-youtube",
+                    "name": "logo-youtube",
+                    "target": true,
+                    "title": "youtube",
+                    "url": "https://www.youtube.com/channel/UCrZbv4HW3NG1MUSATax5vyA"
+                },
+                {
+                    "active": false,
+                    "description": "",
+                    "id": "side-button-airplane",
+                    "name": "airplane",
+                    "target": true,
+                    "title": "tripadvisor",
+                    "url": "https://www.tripadvisor.com.br/Hotel_Review-g303506-d2279079-Reviews-Pura_Vida_Hostel-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html"
+                }
+            ],
+            "bottom": [
+                {
+                    "active": true,
+                    "description": "",
+                    "id": "side-button-down",
+                    "name": "arrow-down",
+                    "target": false,
+                    "title": "down",
+                    "url": ""
+                },
+                {
+                    "active": true,
+                    "description": "",
+                    "id": "side-button-up",
+                    "name": "arrow-up",
+                    "target": false,
+                    "title": "up",
+                    "url": ""
+                }
+            ]
+        }
+    },
+    "hostel": {
+        "title": "Pura Vida Hostel",
+        "description": "O Party Hostel mais incrível do Rio de Janeiro",
+        "address": "R. Saint Roman, 20 - Copacabana, Rio de Janeiro - RJ, 22071-060.",
+        "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.1785087065064!2d-43.194357185231524!3d-22.98046238497452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd53e52271295%3A0x9e525db4ad77d422!2sPura%20Vida%20Hostel!5e0!3m2!1spt-BR!2sbr!4v1643725276099!5m2!1spt-BR!2sbr",
+        "whatsapp": {
+            "phone": "5521990286961",
+            "text": "Ol%C3%A1!%20Vim%20do%20site%20do%20Pura%20Vida%2C%20e%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20hostel."
+        },
+        "easiness": [
+            {
+                "id": "",
+                "name": "bonfire",
+                "target": false,
+                "title": "Área para churrasco",
+                "description": "",
+                "url": "",
+                "active": true
+            },
+            {
+                "id": "",
+                "name": "beer",
+                "target": false,
+                "title": "Bar do Deck",
+                "description": "",
+                "url": "",
+                "active": true
+            },
+            {
+                "id": "",
+                "name": "football",
+                "target": false,
+                "title": "Bolas de football",
+                "description": "",
+                "url": "",
+                "active": true
+            },
+            {
+                "id": "",
+                "name": "logo-dribbble",
+                "target": false,
+                "title": "Bolas de Vôlei",
+                "description": "",
+                "url": "",
+                "active": true
+            },
+            {
+                "id": "",
+                "name": "laptop",
+                "target": false,
+                "title": "Co-working",
+                "description": "",
+                "url": "",
+                "active": true
+            },
+            {
+                "id": "",
+                "name": "lock-closed",
+                "target": false,
+                "title": "Segurança",
+                "description": "24 horas",
+                "url": "",
+                "active": true
+            },
+            {
+                "id": "",
+                "name": "wine",
+                "target": false,
+                "title": "Taverna",
+                "description": "Private club",
+                "url": "",
+                "active": true
+            },
+            {
+                "id": "",
+                "name": "wifi",
+                "target": false,
+                "title": "Wi-fi",
+                "description": "",
+                "url": "",
+                "active": true
+            },
+            {
+                "id": "",
+                "name": "heart",
+                "target": false,
+                "title": "Amizade",
+                "description": "",
+                "url": "",
+                "active": true
+            }
+        ]
+    },
+    "youtube": {
+        "description": "O que tá pegando no Party Hostel mais incrível do Rio de Janeiro?",
+        "iframe": [
+            {
+                "src": "https://youtu.be/iq3EVFE6gK8"
+            },
+            {
+                "src": "https://youtu.be/tBBtTu2MNzk"
+            },
+            {
+                "src": "https://youtu.be/3ZG0VWr5a3A"
+            },
+            {
+                "src": "https://youtu.be/MfoD7Wz5Bgw"
+            },
+            {
+                "src": "https://youtu.be/N4lFSukrX4Q"
+            },
+            {
+                "src": "https://youtu.be/dB5S8iN-9nc"
+            },
+            {
+                "src": "https://youtu.be/XOaqwzQ88bc"
+            },
+            {
+                "src": "https://youtu.be/HvA02Fl0ixI"
+            },
+            {
+                "src": "https://youtu.be/LB29SvrVLKU"
+            },
+            {
+                "src": "https://youtu.be/CyQOtClQ0vo"
+            }
+        ]
+    },
+    "menu": [
+        {
+            "title": "bar",
+            "description": "",
+            "item": [
+                {
+                    "title": "drinks",
+                    "description": "",
+                    "item": [
+                        {
+                            "title": "pura vida",
+                            "description": "",
+                            "value": "20"
+                        },
+                        {
+                            "title": "caipirinha",
+                            "description": "com cachaça gabriela",
+                            "value": "20"
+                        },
+                        {
+                            "title": "1 litro de caipirinha",
+                            "description": "com cachaça gabriela",
+                            "value": "35"
+                        },
+                        {
+                            "title": "caipirinha",
+                            "description": "bebida tradicional brasileira",
+                            "value": "15"
+                        },
+                        {
+                            "title": "caipivodka nacional",
+                            "description": "",
+                            "value": "20"
+                        },
+                        {
+                            "title": "1 litro de caipivodka nacional",
+                            "description": "",
+                            "value": "35"
+                        },
+                        {
+                            "title": "caipivodka absolut",
+                            "description": "",
+                            "value": "25"
+                        },
+                        {
+                            "title": "gin tonica nacional",
+                            "description": "",
+                            "value": "20"
+                        },
+                        {
+                            "title": "gin tonica importado",
+                            "description": "",
+                            "value": "25"
+                        },
+                        {
+                            "title": "mojito",
+                            "description": "",
+                            "value": "20"
+                        },
+                        {
+                            "title": "cuba libre",
+                            "description": "",
+                            "value": "20"
+                        },
+                        {
+                            "title": "1 litro de mojito - cuba libre",
+                            "description": "",
+                            "value": "35"
+                        },
+                        {
+                            "title": "fernet com coca-cola",
+                            "description": "",
+                            "value": "25"
+                        },
+                        {
+                            "title": "jack & coke",
+                            "description": "",
+                            "value": "25"
+                        },
+                        {
+                            "title": "1 litro de jack & coke",
+                            "description": "",
+                            "value": "20"
+                        },
+                        {
+                            "title": "vodka nacional com energético",
+                            "description": "",
+                            "value": "25"
+                        },
+                        {
+                            "title": "1 litro de vodka nacional com energetico",
+                            "description": "",
+                            "value": "45"
+                        }
+                    ]
+                },
+                {
+                    "title": "cervejas",
+                    "description": "",
+                    "item": [
+                        {
+                            "title": "regular 350 ml",
+                            "description": "",
+                            "value": "6"
+                        },
+                        {
+                            "title": "premiu 350 ml",
+                            "description": "",
+                            "value": "8"
+                        },
+                        {
+                            "title": "regular 600 ml",
+                            "description": "",
+                            "value": "12"
+                        },
+                        {
+                            "title": "latão 473 ml",
+                            "description": "lata grande",
+                            "value": "8"
+                        },
+                        {
+                            "title": "heineken 330 ml / 350 ml",
+                            "description": "",
+                            "value": "10"
+                        },
+                        {
+                            "title": "heineken 473 ml",
+                            "description": "",
+                            "value": "12"
+                        },
+                        {
+                            "title": "heineken 600 ml",
+                            "description": "",
+                            "value": "16"
+                        },
+                        {
+                            "title": "hocus pocus 500 ml",
+                            "description": "rio craft beer (artesanal)",
+                            "value": "25"
+                        }
+                    ]
+                },
+                {
+                    "title": "doses",
+                    "description": "",
+                    "item": [
+                        {
+                            "title": "cachaça gabriela",
+                            "description": "",
+                            "value": "8"
+                        },
+                        {
+                            "title": "tequila",
+                            "description": "",
+                            "value": "18"
+                        },
+                        {
+                            "title": "vodka nacional",
+                            "description": "vodka nacional",
+                            "value": "15"
+                        },
+                        {
+                            "title": "vodka absolut",
+                            "description": "",
+                            "value": "20"
+                        },
+                        {
+                            "title": "rum / gim",
+                            "description": "",
+                            "value": "20"
+                        },
+                        {
+                            "title": "red label / ballantines",
+                            "description": "",
+                            "value": "20"
+                        },
+                        {
+                            "title": "jack daniels / jim bean",
+                            "description": "",
+                            "value": "22"
+                        },
+                        {
+                            "title": "fernet",
+                            "description": "",
+                            "value": "22"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "restaurante",
+            "description": "",
+            "item": []
+        }
+    ]
+}

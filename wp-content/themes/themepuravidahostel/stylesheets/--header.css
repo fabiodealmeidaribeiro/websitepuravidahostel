@@ -1,0 +1,112 @@
+@import '--root.css';
+#container>header
+{
+  margin: 0 0 var(--margin) 0;
+}
+#container>header>#background
+{
+  padding: calc(var(--margin) * 3);
+}
+#container>header>#background>#brand
+{
+  align-items: center;
+  display: flex;
+}
+#container>header>#background>#brand>picture
+{
+  margin: 0 var(--margin) 0 0;
+  width: calc(var(--margin) * 6);
+}
+#container>header>#background>#brand>picture>a,
+#container>header>#background>#brand>picture>a>img
+{
+  width: 100%;
+}
+#container>header>#background>#brand>picture>a>img
+{
+  -moz-box-shadow: var(--brand-box-shadow);
+  -webkit-box-shadow: var(--brand-box-shadow);
+  box-shadow: var(--brand-box-shadow);
+}
+#container>header>#background>#brand>#bloginfo
+{
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#container>header>#background>#brand>#bloginfo>p>a,
+#container>header>#background>#brand>#bloginfo>h1>a
+{
+  color: var(--color-white);
+  text-shadow: var(--brand-text-shadow);
+}
+#container>header>#reservation
+{
+  background-color: var(--color-white);
+  display: flex;
+  justify-content: center;
+  padding: var(--margin);
+}
+#container>header>#reservation>#reservation-content>form>#reservation-date,
+#container>header>#reservation>#reservation-content>form>#reservation-number,
+#container>header>#reservation>#reservation-content>form>#reservation-check
+{
+  display: inline-flex;
+  width: unset;
+}
+#container>header>#reservation>#reservation-content>form>#reservation-date,
+#container>header>#reservation>#reservation-content>form>#reservation-number
+{
+  margin: 0 var(--margin) 0 0;
+}
+#container>header>#reservation>#reservation-content>form>#reservation-check
+{
+  margin: 0;
+}
+main>article>header
+{
+  margin: 3rem 0 0 0;
+  padding: 0 calc(1rem + .063rem);
+}
+@media (max-width: 575.98px) { }
+@media (max-width: 767.98px) {
+  #container>header>#reservation>#reservation-content,
+  #container>header>#reservation>#reservation-content>form
+  {
+    width: 100%;
+  }
+  #container>header>#reservation>#reservation-content>form
+  {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #container>header>#reservation>#reservation-content>form>#reservation-date,
+  #container>header>#reservation>#reservation-content>form>#reservation-number
+  {
+    margin: 0 0 var(--margin) 0;
+    width: 100%;
+  }
+  #container>header>#reservation>#reservation-content>form>#reservation-check
+  {
+    margin: 0;
+  }
+}
+@media (max-width: 991.98px) {
+  #container>header>#background>#brand>picture
+  {
+    margin: 0 0 var(--margin) 0;
+  }
+  #container>header>#background,
+  #container>header>#background>#brand,
+  #container>header>#background>#brand>#bloginfo
+  {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media (max-width: 1199.98px) { }

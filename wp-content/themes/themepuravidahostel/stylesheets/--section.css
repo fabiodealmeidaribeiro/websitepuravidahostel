@@ -1,0 +1,21 @@
+@import '--root.css';
+
+section
+{
+  background-color: var(--content-background);
+  border-radius: var(--border-radius);
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+}
+
+section>p,
+section>h3
+{
+  text-align: left;
+  margin: 0 0 .5rem 0;
+}
+
+@media (max-width: 575.98px) { }
+@media (max-width: 767.98px) { }
+@media (max-width: 991.98px) { }
+@media (max-width: 1199.98px) { }

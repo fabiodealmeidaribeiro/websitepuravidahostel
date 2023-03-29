@@ -1,0 +1,17 @@
+@import '--root.css';
+
+nav
+{
+  background-color: var(--content-background);
+  box-shadow: var(--box-shadow);
+  width: var(--container-width);
+}
+
+.nav-link { text-transform: capitalize; }
+
+@media (max-width: 575.98px) { }
+@media (max-width: 767.98px) {
+    nav { width: 100%; }
+}
+@media (max-width: 991.98px) { }
+@media (max-width: 1199.98px) { }

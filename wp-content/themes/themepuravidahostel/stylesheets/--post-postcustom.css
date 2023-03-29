@@ -1,0 +1,16 @@
+@import '--root.css';
+
+.post-postcustom
+{
+    background-color: var(--content-background);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    margin: 0 0 var(--margin) 0;
+    padding: var(--margin);
+}
+
+@media (max-width: 575.98px) { }
+@media (max-width: 767.98px) { }
+@media (max-width: 991.98px) { }
+@media (max-width: 1199.98px) { }

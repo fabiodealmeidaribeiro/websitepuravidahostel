@@ -1,0 +1,19 @@
+@import '--root.css';
+
+.thumbnail-wrapper
+{
+  background-color: var(--color-gray);
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  float: left;
+  /* margin: 0 var(--margin) var(--margin) 0; */
+  padding: calc(var(--margin) / 2);
+  position: relative;
+}
+
+@media (max-width: 575.98px) {
+  .thumbnail-wrapper { margin: 0 0 var(--margin) 0 !important; }
+}
+@media (max-width: 767.98px) { }
+@media (max-width: 991.98px) { }
+@media (max-width: 1199.98px) { }

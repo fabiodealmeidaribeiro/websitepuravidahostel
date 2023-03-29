@@ -1,0 +1,52 @@
+@import '--root.css';
+
+.side-button
+{
+  align-items: center;
+  background-color: var(--dark-color-purple);
+  border-radius: 50%;
+  box-shadow: var(--side-button-box-shadow);
+  color: var(--color-white);
+  cursor: pointer;
+  display: flex;
+  font-size: calc(var(--side-button-width) / 2);
+  height: var(--side-button-width);
+  justify-content: center;
+  position: fixed;
+  transition: var(--side-button-transition);
+  visibility: visible;
+  width: var(--side-button-width);
+}
+
+a:hover .side-button { box-shadow: var(--side-button-box-shadow-hover); }
+
+a:hover #side-button-airplane { color: var(--side-button-color-airplane); }
+a:hover #side-button-bed { color: var(--side-button-color-bed); }
+a:hover #side-button-facebook { color: var(--side-button-color-facebook); }
+a:hover #side-button-instagram { color: var(--side-button-color-instagram); }
+a:hover #side-button-whatsapp { color: var(--side-button-color-whatsapp); }
+a:hover #side-button-youtube { color: var(--side-button-color-youtube); }
+
+a:hover #side-button-airplane,
+a:hover #side-button-bed,
+a:hover #side-button-facebook,
+a:hover #side-button-instagram,
+a:hover #side-button-whatsapp,
+a:hover #side-button-youtube
+{
+  background-color: var(--color-white);
+}
+
+a:hover #side-button-down,
+a:hover #side-button-up
+{
+  background-color: var(--color-white);
+  color: var(--dark-color-purple);
+}
+
+@media (max-width: 575.98px) { }
+@media (max-width: 767.98px) {
+  .side-button { display: none; }
+}
+@media (max-width: 991.98px) { }
+@media (max-width: 1199.98px) { }

@@ -1,0 +1,15 @@
+@import '--root.css';
+
+.thumbnail-container
+{
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+@media (max-width: 575.98px) { }
+@media (max-width: 767.98px) { }
+@media (max-width: 991.98px) { }
+@media (max-width: 1199.98px) { }

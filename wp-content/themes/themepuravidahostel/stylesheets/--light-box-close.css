@@ -1,0 +1,38 @@
+@import '--root.css';
+
+.light-box-close
+{
+    cursor: pointer;
+}
+
+.light-box-close::after,
+.light-box-close::before
+{
+    background-color: var(--color-black);
+    border-radius: 5px;
+    content: '';
+    height: 25px;
+    position: absolute;
+    width: 5px;
+}
+
+.light-box-close::after
+{
+    transform: rotate(45deg);
+}
+
+.light-box-close::before
+{
+    transform: rotate(-45deg);
+}
+
+.light-box-close:hover::after,
+.light-box-close:hover::before
+{
+    background-color: var(--color-white);
+}
+
+@media (max-width: 575.98px) { }
+@media (max-width: 767.98px) { }
+@media (max-width: 991.98px) { }
+@media (max-width: 1199.98px) { }

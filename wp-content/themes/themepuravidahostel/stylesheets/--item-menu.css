@@ -1,0 +1,23 @@
+@import '--root.css';
+
+a.item-menu
+{
+  background-color: var(--dark-color-purple);
+  border-radius: calc(var(--border-radius) / 2);
+  box-shadow: var(--box-shadow);
+  color: var(--color-white);
+  margin: 0 .5rem .5rem 0;
+  padding: .5rem 1rem;
+  transition: var(--side-button-transition);
+}
+
+a.item-menu:hover
+{
+  background-color: var(--dark-color-pink);
+  color: var(--color-white);
+}
+
+@media (max-width: 575.98px) { }
+@media (max-width: 767.98px) { }
+@media (max-width: 991.98px) { }
+@media (max-width: 1199.98px) { }

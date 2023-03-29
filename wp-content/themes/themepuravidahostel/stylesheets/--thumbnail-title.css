@@ -1,0 +1,39 @@
+@import '--root.css';
+
+.thumbnail-title
+{
+  align-items: center;
+  background-color: var(--dark-color-purple);
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  height: calc(100% - var(--margin));
+  justify-content: center;
+  left: calc(var(--margin) / 2);
+  opacity: 0;
+  padding: var(--margin);
+  position: absolute;
+  text-align: center;
+  top: calc(var(--margin) / 2);
+  transition: var(--thumbnail-title-transition);
+  visibility: hidden;
+  width: calc(100% - var(--margin));
+  z-index: -1;
+}
+
+.thumbnail-title>p
+{
+  color: var(--color-white);
+}
+
+.thumbnail-title-show
+{
+  opacity: .75;
+  visibility: visible;
+  z-index: 1;
+}
+
+@media (max-width: 575.98px) { }
+@media (max-width: 767.98px) { }
+@media (max-width: 991.98px) { }
+@media (max-width: 1199.98px) { }

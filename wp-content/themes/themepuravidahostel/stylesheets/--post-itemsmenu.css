@@ -1,0 +1,16 @@
+@import '--root.css';
+
+.post-itemsmenu
+{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3rem 0 2.5rem 0;
+    width: 100%;
+}
+
+@media (max-width: 575.98px) { }
+@media (max-width: 767.98px) { }
+@media (max-width: 991.98px) { }
+@media (max-width: 1199.98px) { }

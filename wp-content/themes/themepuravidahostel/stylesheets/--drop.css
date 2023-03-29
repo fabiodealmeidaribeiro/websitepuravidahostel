@@ -1,0 +1,73 @@
+@import '--root.css';
+
+.drop
+{
+    position: relative;
+    align-items: center;
+    background-color: #eee;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, .0625);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    box-shadow:
+        inset
+        10px 10px 10px rgba(0, 0, 0, .0625),
+        15px 25px 10px rgba(0, 0, 0, .0625),
+        15px 20px 20px rgba(0, 0, 0, .0625),
+        inset
+        -10px -10px 15px rgba(255, 255, 255, .75);
+}
+
+.drop:hover
+{
+    background-color: var(--dark-color-purple);
+    box-shadow:
+        inset
+        10px 10px 10px rgba(0, 0, 0, .0625),
+        15px 25px 10px rgba(0, 0, 0, .0625),
+        15px 20px 20px rgba(0, 0, 0, .0625),
+        inset
+        -10px -10px 15px var(--color-purple);
+}
+
+.drop>ion-icon
+{
+    color: var(--dark-color-purple);
+    height: 50%;
+    width: 50%;
+}
+
+.drop:hover>ion-icon { color: var(--color-white); }
+
+.drop::before
+{
+    height: 12.5%;
+    left: 25%;
+    top: 25%;
+    width: 12.5%;
+}
+
+.drop::after
+{
+    height: calc(12.5% / 1.5);
+    left: calc(50% - 12.5% / 2 / 1.5);
+    top: 12.5%;
+    width: calc(12.5% / 1.5);
+}
+
+.drop::before,
+.drop::after
+{
+    content: '';
+    background-color: rgba(255, 255, 255, .75);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+}
+
+.drop:hover::before,
+.drop:hover::after
+{
+    background-color: rgba(255, 255, 255, .75);
+}

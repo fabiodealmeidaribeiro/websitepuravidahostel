@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@700&display=swap');
+
+:root
+{
+
+  --color-black : black;
+  --color-cyan : #5dbeb9;
+  --color-gray : #f0f2f5;
+  --color-green : #c3d200;
+  --color-orange : #ec7624;
+  --color-pink : #D465A3;
+  --color-primary : #0087cb;
+  --color-purple : #9263a7;
+  --color-white : white;
+  --color-yellow : #ffd200;
+
+  --dark-color-gray : #e0e1e4;
+  --dark-color-orange : #ec7624;
+  --dark-color-pink : #E2007E;
+  --dark-color-purple : #4f235f;
+
+  --side-button-color-airplane : green;
+  --side-button-color-bed : #ccff00;
+  --side-button-color-facebook : #1877f2;
+  --side-button-color-instagram : #c32aa3;
+  --side-button-color-whatsapp : #25d366;
+  --side-button-color-youtube : #ee0000;
+
+  --title-font-size : 1.5rem;
+  --title-font-family : 'Montserrat', sans-serif;
+
+  --border : var(--dark-color-gray) solid .063rem;
+  --border-radius : .5rem;
+  --box-shadow : 0 .125rem .125rem rgba(0, 0, 0, .25);
+  --margin : 1rem;
+  /* ease; ease-in; ease-out; ease-in-out; linear; step-start; step-end; */
+  --transition : all .25s ease;
+
+  --brand-box-shadow :
+    0 0 calc(.313rem * 1) 0 rgba(0, 0, 0, .25),
+    0 0 calc(.313rem * 2) 0 rgba(0, 0, 0, .25),
+    0 0 calc(.313rem * 3) 0 rgba(0, 0, 0, .25);
+
+  --brand-text-shadow :
+    1px 1px 1px rgba(0, 0, 0, .25),
+    0 0 calc(.313rem * 1) rgba(0, 0, 0, .25),
+    0 0 calc(.313rem * 2) rgba(0, 0, 0, .25),
+    0 0 calc(.313rem * 3) rgba(0, 0, 0, .25);
+
+  --side-button-width : calc(var(--margin) * 3);
+  --side-button-transition : all .125s ease;
+  --side-button-box-shadow : 0 0 .25rem rgba(255, 255, 255, .75);
+  --side-button-box-shadow-hover :
+    0 0 calc(.313rem * 1) 0 var(--color-white),
+    0 0 calc(.313rem * 2) 0 var(--color-white),
+    0 0 calc(.313rem * 3) 0 var(--color-white);
+  
+  --container-background : var(--color-gray);
+  --container-border-radius : .5rem;
+  --container-width : calc(100% - calc(var(--side-button-width) + var(--margin) * 2));
+
+  --content-background : var(--color-white);
+  
+  --light-box-margin : calc(var(--margin) * 2);
+
+  --thumbnail-title-transition : all .5s ease;
+
+  --wrapper-border-radius : .25rem;
+}

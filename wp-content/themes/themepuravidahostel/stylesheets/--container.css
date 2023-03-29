@@ -1,0 +1,26 @@
+@import '--root.css';
+#container
+{
+    background-color: var(--container-background);
+    width: var(--container-width);
+}
+.container-channels { display: none; }
+.container-easiness { display: block; }
+@media (max-width: 575.98px) { }
+@media (max-width: 767.98px) {
+    #container
+    {
+        position: relative;
+        width: 100%;
+    }
+    .container-channels
+    {
+        display: block;
+    }
+    .container-easiness
+    {
+        display: none;
+    }
+}
+@media (max-width: 991.98px) { }
+@media (max-width: 1199.98px) { }

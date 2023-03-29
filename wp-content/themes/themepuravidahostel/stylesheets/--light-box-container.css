@@ -1,0 +1,16 @@
+@import '--root.css';
+
+.light-box-container
+{
+    background-color: var(--color-white);
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    height: calc(100% - var(--light-box-margin));
+    padding: calc(var(--margin) / 2);
+    width: calc(100% - var(--light-box-margin));
+}
+
+@media (max-width: 575.98px) { }
+@media (max-width: 767.98px) { }
+@media (max-width: 991.98px) { }
+@media (max-width: 1199.98px) { }

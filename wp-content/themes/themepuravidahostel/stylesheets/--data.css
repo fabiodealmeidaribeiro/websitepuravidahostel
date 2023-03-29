@@ -1,0 +1,17 @@
+@import '--root.css';
+[data-animation='side-button']
+{
+    transform: translate3d(0, 0, 0);
+}
+[data-animation='side-button'].animation
+{
+    transform: translate3d(calc(-1 * var(--margin) / 2), 0, 0);
+}
+[data-transparent].transparent
+{
+    -moz-backdrop-filter: blur(var(--margin));
+    -o-backdrop-filter: blur(var(--margin));
+    -webkit-backdrop-filter: blur(var(--margin));
+    backdrop-filter: blur(var(--margin));
+    background-color: rgba(255, 255, 255, calc(1 / 3));
+}
