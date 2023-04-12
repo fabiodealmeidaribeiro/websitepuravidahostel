@@ -83,6 +83,13 @@
         add_filter('the_generator', function () {
             return '';
         });
+
+
+
+
+
+
+
         function sunset_remove_wp_version_strings ($src) {
             global $wp_version;
             parse_str(parse_url($src, PHP_URL_QUERY), $query);
@@ -137,26 +144,26 @@
         });
 
         // Formato de post
-        // add_action('after_setup_theme', function () {
-        //     add_theme_support('post-formats', [
-        //         'aside',
-        //         'gallery',
-        //         'link',
-        //         'image',
-        //         'quote',
-        //         'status',
-        //         'video',
-        //         'audio',
-        //         'chat'
-        //     ]);
-        // });
+        add_action('after_setup_theme', function () {
+            add_theme_support('post-formats', [
+                'aside',
+                'gallery',
+                'link',
+                'image',
+                'quote',
+                'status',
+                'video',
+                'audio',
+                'chat'
+            ]);
+        });
 
         // Imagem destacada
         add_action('after_setup_theme', function () {
             add_theme_support('post-thumbnails', [
                 'page',
                 'post',
-                // 'movie',
+                'movie',
             ]);
         });
 
@@ -703,7 +710,7 @@
                 $is_return .= is_true_key($selector, 'content') ? $selector['content'] : '';
                 $is_return .= is_true_key($selector, 'name') ? '</' . strtolower(trim($selector['name'])) . '>' : '';
             endif;
-            return $is_return;
+            return $is_return;RY
         };
 
         function orange_category_button_list () {
