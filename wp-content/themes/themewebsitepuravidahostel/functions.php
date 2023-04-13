@@ -710,7 +710,7 @@
                 $is_return .= is_true_key($selector, 'content') ? $selector['content'] : '';
                 $is_return .= is_true_key($selector, 'name') ? '</' . strtolower(trim($selector['name'])) . '>' : '';
             endif;
-            return $is_return;RY
+            return $is_return;
         };
 
         function orange_category_button_list () {
