@@ -432,12 +432,16 @@
                 $is_array = [];
                 for ($i = 0; $i < sizeof($object['array']); $i++)
                     array_push($is_array, strtolower($object['array'][$i]));
+
                 for ($i = 0; $i < sizeof($object['array']); $i++)
                     array_push($is_array, strtoupper($object['array'][$i]));
+
                 for ($i = 0; $i < sizeof($object['array']); $i++)
                     array_push($is_array, ucfirst($object['array'][$i]));
+
                 for ($i = 0; $i < sizeof($object['array']); $i++)
                     array_push($is_array, ucwords($object['array'][$i]));
+                    
                 for ($i = 0; $i < sizeof($is_array); $i++):
                     $is_index = trim($is_array[$i]);
                     $is_replace = '';
@@ -2054,6 +2058,7 @@
             endfor;
             return $is_return;
         };
+
 
         function orange_style_background ($object) {
             $is_return = is_true_key($object, 'url') ? [
