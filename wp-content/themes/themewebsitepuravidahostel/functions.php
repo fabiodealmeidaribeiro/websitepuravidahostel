@@ -1729,6 +1729,7 @@
                             'type' => 'normal',
                             'url' => orange_archive_list([ 'archive' => 'header', 'random' => true ]),
                         ]);
+                        
                         $is_style = array_merge($is_style, [
                             'height' => variable::number['thumbnail']['height'],
                         ]);
